@@ -54,7 +54,11 @@ function run(){
             //console.log(`------------------${key} is object------------------`);
             output[`${key}`] = JSON.stringify(jsonParsedArray[key]);
           } else {
-            output[`${key}`] = jsonParsedArray[key];
+            if (Array.isArray(jsonParsedArray[key])) {
+              output[`${key}`] = JSON.stringify(jsonParsedArray[key]);
+            } else {
+              output[`${key}`] = jsonParsedArray[key];
+            }
           }
         }
       }
