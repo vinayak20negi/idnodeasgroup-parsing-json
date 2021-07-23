@@ -1,0 +1,64 @@
+{
+    "bucket_code": "Y16",
+    "code": "******",
+    "required_tariff_codes": [],
+    "sales_period_start": "2021-05-01T00:00:00Z",
+    "allowed_sales_channel_codes": [],
+    "description": {
+        "en-CA": "THIS ENGLISH",
+        "en-GB": "THIS BRITISH",
+        "fr-CA": "THIS IS FRENCH"
+    },
+    "passenger_type_codes": [
+        "boss",
+        "baby",
+        "TV",
+        "show"
+    ],
+    "product_code": "ECO",
+    "journey_ods": [
+        {
+            "origin": "*",
+            "destination": "*"
+        }
+    ],
+    "max_group_size": 20,
+    "booking_horizon_start": "P150D",
+    "outbound_weekdays": "0,1,0,1,0,1,0",
+    "travel_period_end": "2059-06-01T00:00:00Z",
+    "excluded_tariff_codes": [],
+    "inbound_weekdays": "1,0,1,0,0,1,1",
+    "destination_bound": true,
+    "min_group_size": 4,
+    "travel_period_start": "2021-05-01T00:00:00Z",
+    "external_references": {
+        "TASK": "Holistic",
+        "Team": "Mine"
+    },
+    "service_bound": true,
+    "inventory_class_code": "Y",
+    "disability_type_codes": [
+        "*****SDSDS",
+        "*SD*S*D*SD*S",
+        "*****SDSDS",
+        "*****SDSDS",
+        "*****SDSDS"
+    ],
+    "origin_bound": true,
+    "validity_period": "P1D",
+    "discount_cards": [
+        "12070"
+    ],
+    "booking_horizon_end": "P95D",
+    "validity_bidirectional": false,
+    "validity_usage_count": 1,
+    "sales_period_end": "2059-06-01T00:00:00Z",
+    "type_of_sales": [
+        "normal",
+        "dedans",
+        "rorissiudsg",
+        "afftersadsfdsd"
+    ],
+    "tariff_group": "myman!!",
+    "mandatory_return": false
+}
